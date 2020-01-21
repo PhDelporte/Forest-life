@@ -9,19 +9,19 @@
 
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Button layoutX="233.0" layoutY="296.0" mnemonicParsing="false" text="Calculate">
+      <Button fx:id="ButtonCalc" layoutX="233.0" layoutY="296.0" mnemonicParsing="false" text="Calculate">
          <font>
             <Font size="25.0" />
          </font>
       </Button>
-      <TextField layoutX="61.0" layoutY="188.0" />
-      <TextField layoutX="405.0" layoutY="188.0" />
-      <Text layoutX="292.0" layoutY="210.0" strokeType="OUTSIDE" strokeWidth="0.0" text="X">
+      <TextField fx:id="field1" layoutX="61.0" layoutY="188.0" />
+      <TextField fx:id="field2" layoutX="405.0" layoutY="188.0" />
+      <Text fx:id="X" layoutX="292.0" layoutY="210.0" strokeType="OUTSIDE" strokeWidth="0.0" text="X">
          <font>
             <Font size="25.0" />
          </font>
       </Text>
-      <Text layoutX="163.0" layoutY="116.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Choose your grid space :">
+      <Text fx:id="choose" layoutX="163.0" layoutY="116.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Choose your grid space :">
          <font>
             <Font size="25.0" />
          </font>
